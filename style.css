@@ -3,20 +3,21 @@
      justify-content: space-around;
      align-items: center;
      background-color: #ffffff;
+     width: 100%;
  }
 
  .ul ul {
      display: flex;
      list-style: none;
      column-gap: 30px;
-
+     width: 109%;
  }
 
  .nav-list li {
      display: flex;
      align-items: center;
      cursor: pointer;
-     width: 90px
+     width: 100%;
  }
 
  .image img {
@@ -170,8 +171,12 @@
          flex-direction: column;
      }
 
+     .image {
+         width: 70%;
+     }
+
      .image img {
-         width: 150px;
+         width: 70%;
      }
 
      .header {
@@ -185,7 +190,7 @@
 
      .btn button {
          width: 60%;
-         padding: 10px;
+         padding: 12px;
          font-size: 0.75em;
      }
 
@@ -212,5 +217,5 @@
          font-size: 0.55em;
          margin-top: 3px;
      }
-      
+
  }

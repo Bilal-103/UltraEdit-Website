@@ -18,6 +18,7 @@ nav {
  .nav-list li {
      display: flex;
      align-items: center;
+     white-space: nowrap;
      cursor: pointer;
      width: 100%;
  }
